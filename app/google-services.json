@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "368025850527",
+    "firebase_url": "https://projectfy-3ac9a.firebaseio.com",
+    "project_id": "projectfy-3ac9a",
+    "storage_bucket": "projectfy-3ac9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368025850527:android:85c1c3d350525cc78748aa",
+        "android_client_info": {
+          "package_name": "com.sentisense.projectfy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "368025850527-p5tn6uebkv8d264vtunlv2djq8pka91v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sentisense.projectfy",
+            "certificate_hash": "5da92900b9414eb55108c3afbe9b08dd7eca3c10"
+          }
+        },
+        {
+          "client_id": "368025850527-sb07q2cjs5dpdc3sqf8dplsf3ohqjqtb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sentisense.projectfy",
+            "certificate_hash": "a50f2f2adadfe1f3db49f69871d9f41125a1e09f"
+          }
+        },
+        {
+          "client_id": "368025850527-ghur4eh15fmkq82g5qp2mtmtjtaeg095.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGATiAKFjh500RwZLNY61mndfjktJQ2TA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "368025850527-ghur4eh15fmkq82g5qp2mtmtjtaeg095.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

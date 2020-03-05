@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="10"
+    android:background="@color/colorAccent"
+    tools:context=".AddingPatient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="10">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:paddingTop="10dp"
+            android:layout_marginBottom="30dp"
+            app:srcCompat="@drawable/logo_mini" />
+
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="40dp"
+            android:textColor="@color/common_google_signin_btn_text_light"
+            android:text="Add Patient" />
+
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:background="#11000000"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Patient Name"
+            android:textSize="16sp">
+
+
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/gender"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:background="#11000000"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Gender"
+            android:textSize="16sp">
+
+
+        </EditText>
+
+
+
+        <TextView
+
+            android:id="@+id/age"
+            android:hint="Date of Birth"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:background="#11000000"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            >
+
+        </TextView>
+
+
+        <EditText
+            android:id="@+id/phno"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:background="#11000000"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="phone"
+            android:hint="Phone Number"
+            android:textSize="16sp">
+
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:background="#11000000"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Twitter Username"
+            android:textSize="16sp">
+
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/add"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:background="#11000000"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:hint="Email Address"
+            android:textSize="16sp">
+
+
+        </EditText>
+
+
+<!--        <EditText-->
+<!--            android:id="@+id/age"-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginBottom="30dp"-->
+<!--            android:background="#11000000"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:ems="10"-->
+<!--            android:inputType="date"-->
+<!--            android:hint="DOB"-->
+<!--            android:textSize="16sp">-->
+
+<!--        </EditText>-->
+
+
+
+
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mybutton"
+            android:textColor="#000"
+            android:text="Save"
+            android:fontFamily="sans-serif-thin"
+            android:textSize="16sp">
+        </Button>
+
+    </LinearLayout>
+
+</ScrollView>

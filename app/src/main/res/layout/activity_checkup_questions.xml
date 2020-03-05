@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context=".CheckupQuestions">
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical">-->
+
+
+
+
+
+
+<!--    </LinearLayout>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorAccent">
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/logo_mini"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/visitInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="Appointment Details "
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:fontFamily="sans-serif-thin"
+            />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="#11000000"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Patient Name"
+            android:textSize="16sp">
+
+
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/date"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="#11000000"
+            android:ems="10"
+            android:inputType="datetime"
+            android:hint="Date"
+            android:textSize="16sp">
+
+
+        </EditText>
+
+
+
+        <EditText
+            android:id="@+id/time"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="#11000000"
+            android:ems="10"
+            android:inputType="time"
+            android:hint="Time"
+            android:textSize="16sp">
+
+
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/diagnosis"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="#11000000"
+            android:ems="10"
+            android:inputType="time"
+            android:hint="Diagnosis"
+            android:textSize="16sp">
+
+
+        </EditText>
+
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+
+            android:ems="10"
+            android:inputType=""
+            android:hint="Status"
+            android:textSize="16sp">
+
+
+        </TextView>
+
+
+        <CheckBox
+            android:id="@+id/statusCheckbox"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Yes" />
+
+        <CheckBox
+            android:id="@+id/statusCheckbox2"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="No" />
+
+
+        <Button
+            android:id="@+id/proceed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/mybutton"
+            android:textColor="@color/colorAccent"
+            android:text="Proceed" />
+
+    </LinearLayout>
+
+</ScrollView>
