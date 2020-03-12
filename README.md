@@ -5,7 +5,7 @@ This is our Final Year Project code repository. We have developed an application
 **Project contributors:
 Ali Rauf (16I-0048)
 Muhammad Noffel Khan (16I-0273) 
-Talha Saleem (16I-0502)
+Talha Saleem (16I-0502)**
 
-Project Supervisor:
+**Project Supervisor:
 Dr. Ejaz Ahmed**
